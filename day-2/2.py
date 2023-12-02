@@ -4,9 +4,6 @@ from dataclasses import dataclass
 from operator import mul
 
 
-LIMITS = {"red": 12, "green": 13, "blue": 14}
-
-
 @dataclass
 class Game:
     id: int
